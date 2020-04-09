@@ -41,9 +41,6 @@
 
 
 
-
-
-
 .tuna {
     animation: walk-cycle 1s steps(12) infinite;
     background: url(http://stash.rachelnabors.com/img/codepen/tuna_sprite.png) 0 0 no-repeat; 
@@ -66,7 +63,7 @@
     height: 100%;
     position: absolute;
     top: 0; left: 0;
-    translate3d(0,0,0); 
+    transform:translate3d(0,0,0); 
   }
   
   .foreground {
