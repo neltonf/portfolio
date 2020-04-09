@@ -4,7 +4,13 @@
 
 .navbar{
     height: 150px;
-    font-size: 25px;
+    font-size: 35px;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
 }
 
 #bgimg {
