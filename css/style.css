@@ -5,6 +5,12 @@
 .navbar {
   height: 80px;
   font-size: 35px;
+  z-index: 9999;
+
+}
+
+#collapse_target {
+  background-color: white;
 }
 
 .bg-light {
@@ -20,3 +26,12 @@
 #sentence {
   align-content: center;
 }
+
+/* .navbar-toggle.collapsed {
+  background-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-toggle:hower,
+.navbar-inverse .navbar-toggle.focus {
+  background-color: #FFFFFF;
+} */
