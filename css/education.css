@@ -36,3 +36,15 @@
   border: 1px solid black;
   flex-wrap: wrap;
 }
+
+h1 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.border {
+  z-index: 9999;
+}
