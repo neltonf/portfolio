@@ -2,11 +2,14 @@
   font-family: 'Gotu', sans-serif;
 }
 
+body {
+  padding-top: 50px;
+  z-index: 0;
+}
+
 .navbar {
   height: 80px;
-  font-size: 35px;
-  z-index: 9999;
-
+  font-size: 25px;
 }
 
 #collapse_target {
@@ -26,12 +29,3 @@
 #sentence {
   align-content: center;
 }
-
-/* .navbar-toggle.collapsed {
-  background-color: #FFFFFF;
-}
-
-.navbar-inverse .navbar-toggle:hower,
-.navbar-inverse .navbar-toggle.focus {
-  background-color: #FFFFFF;
-} */
